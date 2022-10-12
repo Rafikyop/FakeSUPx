@@ -1,0 +1,23 @@
+.navigation-back-profile-edit {
+    bottom: 1.25rem;
+    -webkit-padding-start: 1rem;
+    padding-inline-start: 1rem;
+    position: absolute;
+}
+
+.navigation-back-profile-edit i {
+    -webkit-padding-end: 1rem;
+    padding-inline-end: 1rem;
+    inline-size: 1rem;
+    block-size: 1rem;
+    cursor: pointer;
+}
+
+.navigation-back-profile-edit-title {
+    font: var(--body-16regular);
+    display: inline-block;
+    -webkit-margin-before: 0;
+    margin-block-start: 0;
+    -webkit-margin-after: 0;
+    margin-block-end: 0;
+}

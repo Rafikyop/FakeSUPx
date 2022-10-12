@@ -1,0 +1,20 @@
+.header {
+    block-size: var(--headerSize);
+    background-color: var(--grey-4);
+    padding-inline: 1rem;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+}
+
+.header-primary,
+.header-secondary {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.header-secondary .icon-search-active {
+    font-size: 1.5rem;
+    cursor: pointer;
+}

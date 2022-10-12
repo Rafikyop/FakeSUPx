@@ -1,0 +1,54 @@
+@import url("./layout.css");
+@import url("./sidebar.css");
+@import url("./user.css");
+@import url("./header.css");
+@import url("./chat.css");
+@import url("./action-list.css");
+@import url("./message-list.css");
+@import url("./message.css");
+@import url("./sidebar.css");
+@import url("./profile.css");
+@import url("./contact-list.css");
+@import url("./form-search.css");
+@import url("./icons.css");
+@import url("./scrollbar.css");
+@import url("./navigation-back.css");
+:root {
+  font-size: 16px;
+  --sidebarInlinseSize: 27.43rem;
+  --minBlockSize: 48rem;
+  --headerSize: 80px;
+  --form-search: 80px;
+  --actionSize: 80px;
+  --black: #000000;
+  --grey: #666667;
+  --grey-1: #a9a9aa;
+  --grey-2: #f2f2f2;
+  --grey-3: #f6f6f6;
+  --grey-4: #ededed;
+  --white: #ffffff;
+  --green-1: #e1f7cb;
+  --green-2: #56bca6;
+  --red: #ff4a4a;
+  --green-3: #429488;
+  --blue: #5cb3f0;
+  --sky-blue: #e5f2fa;
+  --body-16regular: 400 1rem/1.25rem Inter;
+  --body-16bold: 700 1rem/1.25rem Inter;
+  --body-22bold: 700 1.375rem/1.5rem Inter;
+  --body-14regular: 400 0.875rem/1.125rem Inter;
+  --body-14regular_u: 500 0.875rem/1.25rem Inter;
+  --caption-12bold: 700 0.75rem/1rem Inter;
+  --caption-12regular: 400 0.75rem/1rem Inter;
+  --caption-12regular_u: 400 0.75rem/1.25rem Inter;
+  --black-scrollbar: 11, 20, 26;
+  --white-scrollbar: 255, 255, 255;
+  --hover-container-chat: #f5f6f6;
+  --aria-selected-container-chat: #f0f2f5;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  /* font-family: 'Roboto Condensed', sans-serif; */
+}

@@ -1,0 +1,8 @@
+.date {
+    /* border: 1px solid red; */
+    background-color: var(--sky-blue);
+    border-radius: .5rem;
+    padding: .625rem;
+    font: var(--body-16regular);
+    align-self: center;
+}

@@ -1,0 +1,101 @@
+.message {
+    /* border: 1px solid purple; */
+    background-color: white;
+    padding: .5rem;
+    font: var(--body-16regular);
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    position: relative;
+}
+
+.message-text {
+    margin: 0;
+}
+
+.message.is-receiver {
+    background-color: var(--white);
+    align-self: flex-start;
+    border-radius: 0 .5rem .5rem .5rem;
+}
+
+.message.is-receiver::before {
+    content: '';
+    /* border: 1px solid red; */
+    position: absolute;
+    /* top: 0; */
+    inset-block-start: 0;
+    inset-inline-end: 100%;
+    inline-size: 12px;
+    block-size: 12px;
+    box-sizing: border-box;
+    -webkit-border-start: 6px solid transparent;
+    border-inline-start: 6px solid transparent;
+    -webkit-border-end: 6px solid var(--white);
+    border-inline-end: 6px solid var(--white);
+    -webkit-border-before: 6px solid var(--white);
+    border-block-start: 6px solid var(--white);
+    -webkit-border-after: 6px solid transparent;
+    border-block-end: 6px solid transparent;
+}
+
+.message.is-sender {
+    background-color: var(--green-1);
+    align-self: flex-end;
+    border-radius: .5rem 0 .5rem .5rem;
+}
+
+.message.is-sender::before {
+    content: '';
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 100%;
+    inline-size: 12px;
+    block-size: 12px;
+    box-sizing: border-box;
+    -webkit-border-start: 6px solid var(--green-1);
+    border-inline-start: 6px solid var(--green-1);
+    -webkit-border-end: 6px solid transparent;
+    border-inline-end: 6px solid transparent;
+    -webkit-border-before: 6px solid var(--green-1);
+    border-block-start: 6px solid var(--green-1);
+    -webkit-border-after: 6px solid transparent;
+    border-block-end: 6px solid transparent;
+}
+
+.message-date {
+    font: var(--caption-12regular);
+    color: var(--grey);
+}
+
+.message-status {
+    inline-size: 1rem;
+    block-size: 1rem;
+}
+
+.message-status.is-dobleCheck {
+    /* border: 10px solid green; */
+    background-image: url('../images/doble-check.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.message-details {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    gap: .25rem;
+}
+
+.random {
+    inline-size: 200px;
+    box-sizing: border-box;
+    -webkit-border-start: 100px solid blue;
+    border-inline-start: 100px solid blue;
+    -webkit-border-end: 100px solid transparent;
+    border-inline-end: 100px solid transparent;
+    -webkit-border-before: 100px solid transparent;
+    border-block-start: 100px solid transparent;
+    -webkit-border-after: 100px solid transparent;
+    border-block-end: 100px solid transparent;
+}

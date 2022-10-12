@@ -1,0 +1,38 @@
+.action-list {
+    block-size: var(--actionSize);
+    display: flex;
+    flex-shrink: 0;
+    gap: 1rem;
+    align-items: center;
+    -webkit-padding-start: 1rem;
+    padding-inline-start: 1rem;
+    -webkit-padding-end: 1rem;
+    padding-inline-end: 1rem;
+    background-color: var(--grey-4);
+}
+
+.action-list i {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.action {
+    display: flex;
+    flex: 1;
+}
+
+.action-input {
+    flex: 1;
+    border-radius: 15px;
+    -webkit-padding-before: 1rem;
+    padding-block-start: 1rem;
+    -webkit-padding-after: 1rem;
+    padding-block-end: 1rem;
+    -webkit-padding-start: 1.5rem;
+    padding-inline-start: 1.5rem;
+    -webkit-padding-end: 1.5rem;
+    padding-inline-end: 1.5rem;
+    border: none;
+    background-color: var(--white);
+    font: var(-body-16regular);
+}

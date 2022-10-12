@@ -1,0 +1,104 @@
+.p-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-profile {
+    cursor: pointer;
+}
+
+.user-profile img {
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.header-profile-edit {
+    background-color: var(--green-2);
+    color: var(--white);
+    block-size: 7.5rem;
+    position: relative;
+}
+
+.profile-edit-image {
+    block-size: 17.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.profile-edit-background-image {
+    inline-size: 12.5rem;
+    block-size: 12.5rem;
+    border-radius: 50%;
+    background-color: #7F8080;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.profile-edit-change-image {
+    position: absolute;
+    text-align: center;
+    color: var(--white);
+}
+
+.profile-edit-change-image i {
+    inline-size: 1.5rem;
+    block-size: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.profile-edit-change-image span {
+    display: block;
+    font: var(--body-16regular);
+    -webkit-padding-before: .25rem;
+    padding-block-start: .25rem;
+}
+
+.profile-edit-name {
+    font: var(--body-16regular);
+    background-color: var(--white);
+    block-size: 6.31rem;
+    -webkit-padding-start: 1rem;
+    padding-inline-start: 1rem;
+    -webkit-padding-end: 1rem;
+    padding-inline-end: 1rem;
+    padding-block: 1rem;
+    box-sizing: border-box;
+}
+
+.profile-edit-name p {
+    -webkit-margin-before: 0;
+    margin-block-start: 0;
+    -webkit-margin-after: 1.5rem;
+    margin-block-end: 1.5rem;
+}
+
+.profile-edit-name-text {
+    color: var(--green-3);
+}
+
+.profile-edit-name-edit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-edit-name-edit p {
+    margin: 0;
+}
+
+.profile-edit-name-edit i {
+    cursor: pointer;
+}

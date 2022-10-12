@@ -1,0 +1,11 @@
+@import './container-chat-contact-list.css';
+.contact-list {
+    /* border: 10px solid red; */
+    flex: 1;
+}
+
+.container-contact-list {
+    display: flex;
+    flex-direction: column;
+    /* border: 5px solid salmon; */
+}

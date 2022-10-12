@@ -1,0 +1,21 @@
+@import './message.css';
+@import './date.css';
+.message-list {
+    display: flex;
+    flex-direction: column-reverse;
+    grid-row-gap: 1.5rem;
+    gap: 1.5rem;
+    padding: 1rem;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.background-message-list {
+    display: flex;
+    background-image: url('../images/background-whatsapp.png');
+    background-repeat: repeat;
+    background-color: #efeae2;
+    -o-object-fit: cover;
+    object-fit: cover;
+    overflow: hidden;
+}

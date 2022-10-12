@@ -1,0 +1,42 @@
+.user {
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.user .navigation-back {
+    -webkit-margin-end: .5rem;
+    margin-inline-end: .5rem;
+    cursor: pointer;
+}
+
+.user .navigation-back i {
+    font-size: 1rem;
+    inline-size: 1rem;
+    block-size: 1rem;
+}
+
+.user p span {
+    display: block;
+}
+
+.user img {
+    border-radius: 50%;
+}
+
+.user-name {
+    font: var(--body-14regular);
+    color: var(--black);
+}
+
+.user-status {
+    font: var(--caption-12regular);
+    color: var(--grey);
+}
+
+@media screen and (min-width:768px) {
+    .user .navigation-back {
+        display: none;
+    }
+}

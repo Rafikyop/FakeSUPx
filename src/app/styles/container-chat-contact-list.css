@@ -1,0 +1,74 @@
+.container-chat-contact-list {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    align-items: center;
+    padding: 1rem;
+    position: relative;
+    cursor: pointer;
+    /* justify-content: center; */
+}
+
+.container-chat-contact-list img {
+    inline-size: 3rem;
+    block-size: 3rem;
+    border-radius: 50%;
+}
+
+.container-chat-contact-list::after {
+    content: '';
+    border-bottom: 1px solid var(--grey-2);
+    width: 23.37rem;
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.container-chat-contact-list:hover {
+    background-color: var(--hover-container-chat);
+}
+
+.container-chat-contact-list[aria-selected='true'] {
+    background-color: var(--aria-selected-container-chat);
+}
+
+.chat-profile-details {
+    flex: 1;
+}
+
+.chat-details {
+    -webkit-margin-before: 0;
+    margin-block-start: 0;
+    -webkit-margin-after: .5rem;
+    margin-block-end: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.chat-contact-name {
+    font: var(--body-16regular);
+    color: var(--black);
+}
+
+.chat-contact-date {
+    font: var(--caption-12regular);
+    color: var(--grey);
+}
+
+.chat-contact-last-message {
+    font: var(--caption-12regular);
+    color: var(--grey);
+}
+
+.chat-contact-last-message::before {
+    content: url('../images/check.png');
+    inline-size: 1rem;
+    block-size: .625rem;
+    -webkit-margin-end: .25rem;
+    margin-inline-end: .25rem;
+}
